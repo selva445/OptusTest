@@ -52,7 +52,7 @@ export const ProgressBarContainer = () => {
 
                         <Fragment> 
                     
-                            {parseInt(eachbutton)>0 ? <button onClick={() => setProgress1(percentRange1+eachbutton < 100 ? percentRange1 + eachbutton : 100)}>{eachbutton}</button> :
+                            {parseInt(eachbutton)>0 ? <button onClick={() => setProgress1(percentRange1+eachbutton < max ? percentRange1 + eachbutton : max)}>{eachbutton}</button> :
                         
                      
                             <button onClick={() => setProgress1(percentRange1+eachbutton > 0 ?
@@ -77,7 +77,7 @@ export const ProgressBarContainer = () => {
 
                     <Fragment> 
                 
-                        {parseInt(eachbutton)>0 ? <button onClick={() => setProgress2(percentRange2+eachbutton < 100 ? percentRange2 + eachbutton : 100)}>{eachbutton}</button> :
+                        {parseInt(eachbutton)>0 ? <button onClick={() => setProgress2(percentRange2+eachbutton < max ? percentRange2 + eachbutton : max)}>{eachbutton}</button> :
                     
                     
                         <button onClick={() => setProgress2(percentRange2+eachbutton > 0 ?

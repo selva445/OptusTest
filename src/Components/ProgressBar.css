@@ -11,12 +11,8 @@
     width: 300px;
     height: 35px;
     border-radius: 'inherit';
-    border: 2px solid #666;
+    /* border: 2px solid #666; */
     margin-bottom: 40px;
-    -webkit-border-radius: 'inherit';
-    -moz-border-radius: 'inherit';
-    -ms-border-radius: 'inherit';
-    -o-border-radius: 'inherit';
 }
 
 .range {
